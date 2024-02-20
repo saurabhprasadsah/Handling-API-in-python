@@ -15,7 +15,6 @@ def Stcks_Api():
         raise Exception("failes to fetch user data")
     
 
-
 def main():
     try:
         username, country = Stcks_Api()
