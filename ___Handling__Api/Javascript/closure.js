@@ -1,5 +1,4 @@
 
-
 // function print() {
 //     var a = 10;
 //     console.log(a);
@@ -19,6 +18,9 @@
 // c();
 // c();
 
+
+
+
 message = "Good global"
 function hello(){
     let message = "Good morning";
@@ -32,5 +34,6 @@ function hello(){
     }
     return c;
 }
+
 c = hello();
 c();
