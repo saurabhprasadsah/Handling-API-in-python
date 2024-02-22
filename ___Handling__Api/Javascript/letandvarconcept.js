@@ -17,11 +17,9 @@
 
 // let a =10;
 // console.log(a); // 10
-
 // function task(){
 //     let a =50;  // 50
 //     console.log(a);
-
 //     if(true){
 //         let a = 20;  // 20
 //         console.log(a);
