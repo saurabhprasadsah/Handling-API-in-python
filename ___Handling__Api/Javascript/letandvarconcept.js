@@ -15,7 +15,6 @@
 // console.log(a); //10
 
 
-
 // let a =10;
 // console.log(a); // 10
 
@@ -35,12 +34,9 @@
 
 // let obj1 = {a:10 , b:20}
 // let obj2 = Object.create(obj1)
-
 // obj2.k = 99
-
 // console.log(obj2);  // {} emypty object //{ k: 99 }
 // console.log(obj2.a); 
-
 
 // obj2.a++
 // obj1.a=44
