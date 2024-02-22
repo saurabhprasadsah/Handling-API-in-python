@@ -4,7 +4,6 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
@@ -27,7 +26,6 @@ def saurabh():
 #     return {"message": f"Item created successfully with data: {item}"}
 
 
-
 @app.put("/items/{item_id}")
 async def update_item(item_id: int, item: Item = Body(...)):
     # Update the item in your database or system
@@ -35,9 +33,6 @@ async def update_item(item_id: int, item: Item = Body(...)):
     # ...
 
     return {"message": "Item updated successfully"}
-
-
-
 
 
 

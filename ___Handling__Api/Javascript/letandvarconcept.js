@@ -1,0 +1,36 @@
+// var a =10;
+// console.log(a);  //10
+
+// function task(){
+//     var a =50;
+//     console.log(a); // 50
+
+//     if(true){
+//         var a = 20;
+//         console.log(a); //20
+//     }
+//     console.log(a); //20
+// }
+// task();
+// console.log(a); //10
+
+
+
+// let a =10;
+// console.log(a); // 10
+
+// function task(){
+//     let a =50;  // 50
+//     console.log(a);
+
+//     if(true){
+//         let a = 20;  // 20
+//         console.log(a);
+//     }
+//     console.log(a);   // 50
+// }
+// task();
+// console.log(a);  // 10
+
+
+
