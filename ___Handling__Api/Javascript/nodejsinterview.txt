@@ -1,0 +1,39 @@
+<----Interview question for nodejs Interview----->
+
+Request ?
+Response ?
+Headers ?
+  ------> Authorization
+  ------> content - type?
+  ------> Acceptans ?
+
+Https status code:
+----> 20xxx  -> status code
+----> 30xxx   ->  ok/created/done
+----> 40xxxx  -> clinet error
+----> 50xxxx  -> server error
+
+!Testing Tools 
+
+Mocha
+Chai
+Jest
+Unit Testing
+
+!Docker and kubernatives 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
