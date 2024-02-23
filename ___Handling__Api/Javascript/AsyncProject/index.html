@@ -7,25 +7,39 @@
 </head>
 <body>
     <h1> Chai aur Code </h1>
-    <button id="Stop">Stop</button>
+    <button id="stop">Stop</button>
 </body>
 <script>
 
-const saysaurabh = function(){
-    console.log("Saysaurabh is talking");
-}
+// const saysaurabh = function(){
+//     console.log("Saysaurabh is talking");
+// }
+
+
 
 const changeText = function(){
      document.querySelector('h1').innerHTML
    = "Hello Saurabh how are you?"
 }
 
-setTimeout(changeText,2000)
+const changename = setTimeout(changeText,2000)
 
+document.querySelector('#stop').
+addEventListener('click',
+function(){
+    clearTimeout(changename);
+    console.log("Stopeed");
+})
+
+
+
+
+// clearTimeout(changename)
+// setTimeout(changeText,2000)
 // setTimeout(saysaurabh,3000)
-    // setTimeout(function(){
-    //     console.log("saurabh kumar");
-    // },5000)
+// setTimeout(function(){
+//     console.log("saurabh kumar");
+// },5000)
 </script>
 
 </html>
