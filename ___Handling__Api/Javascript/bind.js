@@ -27,14 +27,71 @@
 //   console.log(obj2.getThis()); // { name: 'obj2', getThis: [Function: getThis] }
 
 
-function init() {
-    var name = "Mozilla"; // name is a local variable created by init
-    function displayName() {
-                         // displayName() is the inner function, that forms the closure
-      console.log(name); // use variable declared in the parent function
-    }
-    displayName();
-  }
-  init();
+
+//lexical scoping
+// function init() {
+//     var name = "Mozilla"; // name is a local variable created by init
+//     function displayName() {
+//                          // displayName() is the inner function, that forms the closure
+//       console.log(name); // use variable declared in the parent function
+//     }
+//     displayName();
+//   }
+//   init();
+
+
+
+//   if (Math.random() > 5) {
+//     var x = 1;
+//   } else {
+//     var x = 2;
+//   }
+//   console.log(x);
+
+
+
+// function makeFunc() {
+//     const name = "Mozilla";
+//     function displayName() {
+//       console.log(name);
+//     }
+//     return displayName;
+//   }
   
+//   const myFunc = makeFunc();
+//   myFunc();
   
+// const name = 'Will Robinson';
+// console.warn(`Danger ${name}! Danger!`);
+
+
+// const e = 10;
+// function sum(a) {
+//   return function (b) {
+//     return function (c) {
+//       // outer functions scope
+//       return function (d) {
+//         // local scope
+//         return a + b + c + d + e;
+//       };
+//     };
+//   };
+// }
+
+// console.log(sum(1)(2)(3)(4)); 
+
+
+// global scope
+// var count = 20;
+
+// function sum(count){
+//     return function(b){
+//         return function(c){
+//             return function(d){
+//                 return count+b+c+d
+//             }
+//         }
+//     }
+// }
+
+// console.log(sum(count)(5)(6)(2))
