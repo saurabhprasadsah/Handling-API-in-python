@@ -1,0 +1,10 @@
+1.Lexical scoping
+2.Let and var
+3.Closure
+4.Async and Sync
+5.Await function
+6.Block scope and function scope
+7.Promises
+8.Event loop
+9.Event function
+10.Oops concept
