@@ -1,8 +1,7 @@
 /* class and constructor */
 /* ======================= */
 /*
- * Class
-*/
+Class
 ES6
 
 class User{
@@ -19,7 +18,6 @@ class User{
     }
 
 }
-
 const chai = new User("chai","chai@gmail.com", "123330")
 console.log(chai);
 console.log(chai.encryptpassword());
