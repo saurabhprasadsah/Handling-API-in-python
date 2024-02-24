@@ -8,7 +8,6 @@
 //         this.email = email;
 //         this.password = password;
 //     }
-
 //     encryptpassword(){
 //         return `${this.password}abc`;
 //     }
@@ -19,9 +18,7 @@
 // }
 
 // const chai = new User("chai","chai@gmail.com", "123330")
-
 // console.log(chai);
-
 // console.log(chai.encryptpassword());
 // console.log(chai.changeUsername());
 
