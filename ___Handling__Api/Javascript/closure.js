@@ -1,23 +1,23 @@
+/*
+function print() {
+    var a = 10;
+    console.log(a);
 
-// function print() {
-//     var a = 10;
-//     console.log(a);
+}
 
-// }
+print()
 
-// print()
-
-// function count() {
-//     var initial = 1;
-//     function plus () {
-//             console.log(++initial);
-//     }
-//    return plus; 
-// }
-// var c = count();
-// c();
-// c();
-
+function count() {
+    var initial = 1;
+    function plus () {
+            console.log(++initial);
+    }
+   return plus; 
+}
+var c = count();
+c();
+c();
+*/
 
 
 
@@ -30,7 +30,7 @@ function hello(){
     }
 
     let c  = function hello2(){
-        console.log(" i am  c "  + message); // A function with his lexical scoping in knows as the closure.
+        console.log(" i am  C "  + message); // A function with his lexical scoping in knows as the closure.
     }
     return c;
 }
