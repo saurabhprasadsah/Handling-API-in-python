@@ -26,9 +26,8 @@ function getThis() {
   console.log(obj1.getThis()); // { name: 'obj1', getThis: [Function: getThis] }
   console.log(obj2.getThis()); // { name: 'obj2', getThis: [Function: getThis] }
 
-
-
 lexical scoping
+
 function init() {
     var name = "Mozilla"; // name is a local variable created by init
     function displayName() {
