@@ -8,9 +8,7 @@
 # print(sum(4,4))
 # print(sum(10,4))
 
-
 # #function defination with no parameter
-
 # def print_hello():
 #     print("Hello")
 
@@ -47,6 +45,17 @@
 #     print(fact) 
 
 # factorial(40)    
+
+
+def converter(usd_val):
+    inr_val = usd_val*83
+    return inr_val
+    # print(usd_val, "USD =", inr_val)
+
+
+cont = converter(1)
+print("INR_VALUE:", cont)
+
 
 
 
