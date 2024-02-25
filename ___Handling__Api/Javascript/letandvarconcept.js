@@ -26,9 +26,9 @@ function task(){
     }
     console.log(a);   // 50
 }
+
 task();
 console.log(a);  // 10
-
 
 let obj1 = {a:10 , b:20}
 let obj2 = Object.create(obj1)
