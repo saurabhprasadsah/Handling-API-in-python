@@ -6,3 +6,5 @@ def sum(a,b):
 
 
 print(sum(2,4))
+print(sum(4,4))
+print(sum(10,4))
