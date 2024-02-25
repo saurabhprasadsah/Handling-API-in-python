@@ -1,8 +1,10 @@
 /* call and this keywords use in javascript */
 
-// Call keyword: It is used to invoke a function. The call() method allows you to call
+/* Call keyword: It is used to invoke a function. The call() method allows you to call
 
-// This keyword:
+This keyword:
+
+*/
 
 function Setusername(username){
     // complex db calls
