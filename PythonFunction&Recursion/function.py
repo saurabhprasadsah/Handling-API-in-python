@@ -1,4 +1,5 @@
 #Learn function in python function means the redundency  code can be removed by using a function.
+
 # function defination 
 # def sum(a,b): #parameter
 #     sum = a+b
@@ -46,24 +47,12 @@
 
 # factorial(40)    
 
+# def converter(usd_val):
+#     inr_val = usd_val*83
+#     return inr_val
+#     # print(usd_val, "USD =", inr_val)
 
-def converter(usd_val):
-    inr_val = usd_val*83
-    return inr_val
-    # print(usd_val, "USD =", inr_val)
-
-
-cont = converter(1)
-print("INR_VALUE:", cont)
-
-
-
-
-
-
-
-
-
-
+# cont = converter(1)
+# print("INR_VALUE:", cont)
 
 
