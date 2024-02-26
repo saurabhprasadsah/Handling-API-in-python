@@ -6,9 +6,8 @@
     },
   };
   
-  myObject.greet(); // Greetings from Madrid
+myObject.greet(); // Greetings from Madrid
   
-
 const myDate = new Date();
 let object = myDate;
 
@@ -45,8 +44,7 @@ function Person(name) {
   }
 
   
-  Object.assign(Person.prototype, personPrototype);
-
+Object.assign(Person.prototype, personPrototype);
 or
 Person.prototype.greet = personPrototype.greet;
   
