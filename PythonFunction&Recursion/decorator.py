@@ -19,9 +19,15 @@
 
 
 
+def debug(func):
+    def wrapper(*args ,**kwargs):
+        return func( *args , **kwargs )
 
 
+    return wrapper
 
+def hello():
+    print("Hello wolrd")
 
 
 def greet(name, greeting="Hello"):
