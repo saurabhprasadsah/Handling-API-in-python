@@ -1,7 +1,6 @@
 // Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
-
 int main() {
     // for(int i=0; i<=10; i++)
     // cout<< i <<" \n" ;
@@ -20,25 +19,21 @@ int main() {
     //     i++;
     // }while(i < 10);
     // return 0;
-    
-    
+
     // int x = 65;
     // char ch = (char)x;
     // cout<< ch << "\n";
     // x++;
     // return 0;
     
-    
     // char ch = 'A';
     // int x = (int)ch; //  Type converion of char to integer value.
     
     // int i =65;
     // char conversion = (int)i;
-    
     // cout<<conversion<<"\n";
     // cout<<x<<"\n";
-    
-    
+
     // return 0;
     
     // int numofchar = 9;
