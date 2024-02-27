@@ -17,8 +17,6 @@
 # example_function(5)
 
 
-
-
 def debug(func):
     def wrapper(*args ,**kwargs):
         return func( *args , **kwargs )
