@@ -38,16 +38,13 @@ const personPrototype = {
     },
   };
   
-
 function Person(name) {
     this.name = name;
   }
 
-  
 Object.assign(Person.prototype, personPrototype);
 or
 Person.prototype.greet = personPrototype.greet;
-  
 
 */
 
