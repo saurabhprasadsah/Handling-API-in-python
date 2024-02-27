@@ -5,9 +5,10 @@
       console.log(`Greetings from ${this.city}`);
     },
   };
+
+  
   
 myObject.greet(); // Greetings from Madrid
-  
 const myDate = new Date();
 let object = myDate;
 
@@ -23,7 +24,6 @@ null
 const myDate = new Date(1995, 11, 17);
 console.log(myDate.getMonth()); // 11
 console.log(myDate.getDate()); // 17
-
 console.log(myDate.getFullYear()); //1995
 
 myDate.getYear = function () {
